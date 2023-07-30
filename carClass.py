@@ -17,4 +17,7 @@ class Car:
     def main():
         car = Car(2022, 'Example Make')
 
+        # print
+        print("Initial Speed:", car.get_speed())
+
 
