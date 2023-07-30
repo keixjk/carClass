@@ -30,3 +30,6 @@ class Car:
             car.brake()
             print("Current Speed (Braking):", car.get_speed())
 
+    if __name__ == "__main__":
+        main()
+
