@@ -20,4 +20,9 @@ class Car:
         # print
         print("Initial Speed:", car.get_speed())
 
+        # Accelerate five times
+        for _ in range(5):
+            car.accelerate()
+            print("Current Speed (Accelerating):"car.get_speed())
+
 
