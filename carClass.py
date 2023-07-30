@@ -4,3 +4,7 @@ class Car:
         self.__make = make
         self.__speed = 0
 
+    def accelerate(self):
+        self.__speed += 5
+
+
